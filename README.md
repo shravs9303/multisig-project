@@ -71,48 +71,6 @@ The test suite covers:
 * ✅ Execution success/failure cases
 * ✅ Edge cases (not enough confirmations, already executed tx)
 
-Run:
-
-```bash
-npx hardhat test
-```
-
----
-
-## 🚀 Deployment to Testnet (Sepolia Example)
-
-1. Add an `.env` file with your private key + Alchemy/Infura endpoint:
-
-```env
-SEPOLIA_URL="https://eth-sepolia.g.alchemy.com/v2/your-key"
-PRIVATE_KEY="your-private-key"
-```
-
-2. Update `hardhat.config.js`:
-
-```js
-require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config();
-
-module.exports = {
-  solidity: "0.8.17",
-  networks: {
-    sepolia: {
-      url: process.env.SEPOLIA_URL,
-      accounts: [process.env.PRIVATE_KEY],
-    },
-  },
-};
-```
-
-3. Deploy:
-
-```bash
-npx hardhat run scripts/deploy.js --network sepolia
-```
-
----
-
 
 
 ## 🔥 Example Workflow
@@ -148,5 +106,6 @@ By building this project you’ll learn:
 * Secure exchange wallets
 * Corporate multi-owner accounts
 * Escrow services
+
 
 
