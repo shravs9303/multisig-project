@@ -1,7 +1,7 @@
 
-# 📝 Multi-Signature Wallet (Multi-Sig) — Solidity + Hardhat + Ethers.js + React
+#  Multi-Signature Wallet (Multi-Sig) — Solidity + Hardhat + Ethers.js + React
 
-## 📌 Overview
+##  Overview
 
 This project implements a **Multi-Signature Wallet (Multi-Sig)** smart contract similar to **Gnosis Safe** but simplified for learning and demonstration purposes.
 A **multi-sig wallet** requires **M out of N owners** to approve a transaction before it can be executed, adding **security, decentralization, and trust minimization** to asset management.
@@ -16,7 +16,7 @@ This repository contains:
 
 ---
 
-## 🔐 Why Multi-Sig?
+##  Why Multi-Sig?
 
 In traditional single-signature wallets, one private key controls the funds. If compromised, **all funds are at risk**.
 With multi-signature:
@@ -30,7 +30,7 @@ A DAO treasury with 5 owners may require **3 confirmations (M=3)** before releas
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Smart Contract:** Solidity `^0.8.17`
 * **Framework:** Hardhat
@@ -42,7 +42,7 @@ A DAO treasury with 5 owners may require **3 confirmations (M=3)** before releas
 ---
 
 
-## 📜 Smart Contract Features
+##  Smart Contract Features
 
 * Multiple wallet owners
 * Configurable **M-of-N** confirmation requirement
@@ -60,7 +60,7 @@ A DAO treasury with 5 owners may require **3 confirmations (M=3)** before releas
 
 
 
-## 🧪 Testing
+##  Testing
 
 We use **Mocha + Chai** with Hardhat’s built-in network for testing.
 The test suite covers:
@@ -73,7 +73,7 @@ The test suite covers:
 
 
 
-## 🔥 Example Workflow
+##  Example Workflow
 
 1. **Submit Transaction**
    Owner1 proposes sending `0.5 ETH` to `recipient`.
@@ -88,7 +88,7 @@ If Owner3 tries to execute without enough confirmations → ❌ **Reverted**.
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 By building this project you’ll learn:
 
@@ -100,12 +100,13 @@ By building this project you’ll learn:
 
 ---
 
-## 🏆 Real-World Relevance
+##  Real-World Relevance
 
 * DAO treasury management
 * Secure exchange wallets
 * Corporate multi-owner accounts
 * Escrow services
+
 
 
 
